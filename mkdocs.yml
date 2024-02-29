@@ -1,0 +1,56 @@
+site_name: Susie Minor
+site_url: https://sminor87.github.io/Susie-Minor/
+
+
+theme:
+  name: material
+  font:
+    code: Roboto Mono
+    text: Roboto
+  palette:
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: cyan
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: cyan
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - toc.follow
+
+markdown_extensions:
+  - smarty
+  - toc:
+      permalink: true
+  - sane_lists
+  - attr_list:
+  - md_in_html
+
+
+plugins:
+  - blog:
+  - search:
+  - awesome-pages
+  
