@@ -7,7 +7,7 @@ authors:
     - sminor
 ---
 
-# Welcome
+# Home
 
-Hi and welcome to my site - generated with MkDocs and Hosted on GitHub.
+Hi, welcome to my site - generated with MkDocs and Hosted on GitHub.
 

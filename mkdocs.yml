@@ -40,6 +40,9 @@ theme:
     - navigation.prune
     - toc.follow
 
+extra:
+  generator: false
+
 markdown_extensions:
   - smarty
   - toc:
@@ -51,6 +54,10 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
 
 
 plugins:
